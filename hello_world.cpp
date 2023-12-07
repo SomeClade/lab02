@@ -2,7 +2,6 @@
 
 int main(int argc, char **argv)
 {
-	// Prevent the compiler from complaining about the unused parameters
 	(void) argc;
 	(void) argv;
 
@@ -11,6 +10,7 @@ int main(int argc, char **argv)
 	std::cin >> name;
 	
 	std::cout << "Hello, world from " << name << "!" << std::endl;
+	std::cout << "Something with code" << std::endl;
 
 	return 0;
 }
