@@ -1,16 +1,17 @@
 #include <iostream>
 
-int main(int argc, char **argv)
+int
+main(int argc, char** argv)
 {
-	(void) argc;
-	(void) argv;
+  (void)argc;
+  (void)argv;
 
-	std::string name;
-	std::cout << "What's your name? ";
-	std::cin >> name;
-	
-	std::cout << "Hello, world from " << name << "!" << std::endl;
-	std::cout << "Something with code" << std::endl;
+  std::string name;
+  std::cout << "What's your name? ";
+  std::cin >> name;
 
-	return 0;
+  std::cout << "Hello, world from " << name << "!" << std::endl;
+  std::cout << "Something with code" << std::endl;
+
+  return 0;
 }
